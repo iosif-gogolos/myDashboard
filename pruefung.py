@@ -1,18 +1,14 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
+from dataclasses import dataclass
+from typing import Optional
+
+from pruefungsform import Pruefungsform
+
+@dataclass
 class Pruefung:
-    def __init__(self):
-        self.id = None
-        self.beschreibung = None
-        self.kurs = None
-        self.pruefungsform = None
-        self.note = None
-        self.student = None
-        self.studiengang = None
-
-    def get_ects(self, ):
-        pass
-
-    def get_student(self, ):
-        pass
+    id: str
+    kurs_id: str
+    pruefongsform: Pruefungsform
+    note: Optional[float] = None

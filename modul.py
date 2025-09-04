@@ -1,14 +1,17 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
+from dataclasses import dataclass, field
+from typing import List
+from kurs import Kurs
+
+@dataclass
 class Modul:
-    summe_ects = None
+    id: str
+    name: str
+    kurse: List[Kurs] = field(default_factory=list)
 
-    def __init__(self):
-        self.id = None
-        self.name = None
-        self.kurse = None
-        self.istAbgeschlossen = None
+    @property
+    def ects_summe(self) -> int:
+        return sum(k.ects for k in self.kurse)
 
-    def berechne_summe_ects(self, ):
-        pass

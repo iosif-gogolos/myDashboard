@@ -1,21 +1,13 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
+from dataclasses import dataclass
+from studiengang import Studiengang
+
+@dataclass
 class Student:
-    def __init__(self):
-        self.nachname = None
-        self.vorname = None
-        self.email = None
-        self.geburtsdatum = None
-        self.geschlecht = None
-        self.matrikelnummer = None
-        self.Attribute1 = None
-
-    def studiengang_auswaehlen(self, ):
-        pass
-
-    def modul_auswaehlen(self, ):
-        pass
-
-    def notendurchschnitt_anzeigen(self, ):
-        pass
+    id: str
+    vorname: str
+    nachname: str
+    matrikelnummer: str
+    studiengang: Studiengang

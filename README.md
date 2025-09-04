@@ -7,7 +7,7 @@
 - **Name:** Iosif Gogolos  
 - **Matrikelnummer:** 42304582  
 - **Studiengang:** B.Sc. Softwareentwicklung  
-- **Tutorin:** Prof. Dr. Cornelia Heinisch  
+- **Tutor:** Jacko Nudzor
 
 ### Über dieses Repository
 
