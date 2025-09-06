@@ -1,0 +1,369 @@
+{
+  "id": "s1",
+  "vorname": "Iosif",
+  "nachname": "Gogolos",
+  "matrikelnummer": "42304582",
+  "studiengang": {
+    "id": "se_bsc",
+    "name": "Softwareentwicklung (B.Sc.)",
+    "module": [
+      {
+        "id": "sem1",
+        "name": "Semester 1",
+        "kurse": [
+          {
+            "id": "IGIS01-01",
+            "name": "Grundlagen der Softwaretechnik",
+            "ects": 5
+          },
+          {
+            "id": "DLBWIRITT01",
+            "name": "Einführung in das wissenschaftliche Arbeiten für IT und Technik",
+            "ects": 5
+          },
+          {
+            "id": "IREN01",
+            "name": "Requirements Engineering",
+            "ects": 5
+          },
+          {
+            "id": "DLBDSIPWP01_D",
+            "name": "Einführung in die Programmierung mit Python",
+            "ects": 5
+          },
+          {
+            "id": "DLBFTPPP01",
+            "name": "Projekt: Programmierung mit Python",
+            "ects": 5
+          },
+          {
+            "id": "SEM1_EL",
+            "name": "Praktikum oder Modul zur Auswahl",
+            "ects": 5
+          }
+        ]
+      },
+      {
+        "id": "sem2",
+        "name": "Semester 2",
+        "kurse": [
+          {
+            "id": "IPWA01-01",
+            "name": "Programmierung von Webanwendungsoberflächen",
+            "ects": 5
+          },
+          {
+            "id": "DLBCSOOPJ01_D",
+            "name": "Grundlagen der objektorientierten Programmierung mit Java",
+            "ects": 5
+          },
+          {
+            "id": "IDBS01",
+            "name": "Datenmodellierung und Datenbanksysteme",
+            "ects": 5
+          },
+          {
+            "id": "ISPE01",
+            "name": "Spezifikation",
+            "ects": 5
+          },
+          {
+            "id": "DLBITPEWP01",
+            "name": "Projekt: Einstieg in die Web-Programmierung",
+            "ects": 5
+          },
+          {
+            "id": "SEM2_EL",
+            "name": "Praktikum oder Modul zur Auswahl",
+            "ects": 5
+          }
+        ]
+      },
+      {
+        "id": "sem3",
+        "name": "Semester 3",
+        "kurse": [
+          {
+            "id": "DLBIADPS01-01",
+            "name": "Algorithmen, Datenstrukturen und Programmiersprachen",
+            "ects": 5
+          },
+          {
+            "id": "DLBSEPDOCD01_D",
+            "name": "DevOps und Continuous Delivery",
+            "ects": 5
+          },
+          {
+            "id": "DLBSESA01",
+            "name": "Software-Architektur",
+            "ects": 5
+          },
+          {
+            "id": "IQSS01",
+            "name": "Qualitätssicherung im Softwareprozess",
+            "ects": 5
+          },
+          {
+            "id": "DLBMINPAPCC01",
+            "name": "Projekt: Allgemeine Programmierung mit C/C++",
+            "ects": 5
+          },
+          {
+            "id": "SEM3_EL",
+            "name": "Praktikum oder Modul zur Auswahl",
+            "ects": 5
+          }
+        ]
+      },
+      {
+        "id": "sem4",
+        "name": "Semester 4",
+        "kurse": [
+          {
+            "id": "DLBSEPENIT01_D",
+            "name": "Ethik und Nachhaltigkeit in der IT",
+            "ects": 5
+          },
+          {
+            "id": "DLBWIWTMAS01",
+            "name": "Techniken und Methoden der agilen Softwareentwicklung",
+            "ects": 5
+          },
+          {
+            "id": "DLBCSEMSE01-01_D",
+            "name": "Mobile Software Engineering",
+            "ects": 5
+          },
+          {
+            "id": "ISSE01",
+            "name": "Seminar: Software Engineering",
+            "ects": 5
+          },
+          {
+            "id": "ISEF01",
+            "name": "Projekt: Software Engineering",
+            "ects": 5
+          },
+          {
+            "id": "WPA_A1",
+            "name": "Wahlpflichtbereich A (Modul 1)",
+            "ects": 5
+          }
+        ]
+      },
+      {
+        "id": "sem5",
+        "name": "Semester 5",
+        "kurse": [
+          {
+            "id": "WPA_A2",
+            "name": "Wahlpflichtbereich A (Modul 2)",
+            "ects": 5
+          },
+          {
+            "id": "WPB_B1",
+            "name": "Wahlpflichtbereich B (Modul 1)",
+            "ects": 5
+          },
+          {
+            "id": "WPB_B2",
+            "name": "Wahlpflichtbereich B (Modul 2)",
+            "ects": 5
+          },
+          {
+            "id": "DLBSEPCP01_D",
+            "name": "Projekt: Cloud Programming",
+            "ects": 5
+          },
+          {
+            "id": "SEM5_EL",
+            "name": "Praktikum oder Modul zur Auswahl",
+            "ects": 5
+          },
+          {
+            "id": "WPC_C1",
+            "name": "Wahlpflichtbereich C (Modul 1)",
+            "ects": 5
+          }
+        ]
+      },
+      {
+        "id": "sem6",
+        "name": "Semester 6",
+        "kurse": [
+          {
+            "id": "WPC_C2",
+            "name": "Wahlpflichtbereich C (Modul 2)",
+            "ects": 5
+          },
+          {
+            "id": "DLBSEPPSD01-01_D",
+            "name": "Projekt: Software Development mit KI",
+            "ects": 5
+          },
+          {
+            "id": "SEM6_EL",
+            "name": "Praktikum oder Modul zur Auswahl",
+            "ects": 5
+          },
+          {
+            "id": "BBAK01",
+            "name": "Bachelorarbeit",
+            "ects": 9
+          },
+          {
+            "id": "BBAK02",
+            "name": "Kolloquium",
+            "ects": 1
+          }
+        ]
+      }
+    ]
+  },
+  "pruefungen": [
+    {
+      "id": "P_IGIS01-01",
+      "kurs_id": "IGIS01-01",
+      "pruefungsform": "KLAUSUR",
+      "note": null
+    },
+    {
+      "id": "P_DLBWIRITT01",
+      "kurs_id": "DLBWIRITT01",
+      "pruefungsform": "ADVANCED_WORKBOOK",
+      "note": null
+    },
+    {
+      "id": "P_IREN01",
+      "kurs_id": "IREN01",
+      "pruefungsform": "KLAUSUR",
+      "note": null
+    },
+    {
+      "id": "P_DLBDSIPWP01_D",
+      "kurs_id": "DLBDSIPWP01_D",
+      "pruefungsform": "KLAUSUR",
+      "note": null
+    },
+    {
+      "id": "P_DLBFTPPP01",
+      "kurs_id": "DLBFTPPP01",
+      "pruefungsform": "PROJEKT",
+      "note": null
+    },
+    {
+      "id": "P_IPWA01-01",
+      "kurs_id": "IPWA01-01",
+      "pruefungsform": "KLAUSUR",
+      "note": null
+    },
+    {
+      "id": "P_DLBCSOOPJ01_D",
+      "kurs_id": "DLBCSOOPJ01_D",
+      "pruefungsform": "KLAUSUR",
+      "note": null
+    },
+    {
+      "id": "P_IDBS01",
+      "kurs_id": "IDBS01",
+      "pruefungsform": "KLAUSUR",
+      "note": null
+    },
+    {
+      "id": "P_ISPE01",
+      "kurs_id": "ISPE01",
+      "pruefungsform": "KLAUSUR",
+      "note": null
+    },
+    {
+      "id": "P_DLBITPEWP01",
+      "kurs_id": "DLBITPEWP01",
+      "pruefungsform": "PORTFOLIO",
+      "note": null
+    },
+    {
+      "id": "P_DLBSEPDOCD01_D",
+      "kurs_id": "DLBSEPDOCD01_D",
+      "pruefungsform": "FALLSTUDIE",
+      "note": null
+    },
+    {
+      "id": "P_DLBSESA01",
+      "kurs_id": "DLBSESA01",
+      "pruefungsform": "FALLSTUDIE",
+      "note": null
+    },
+    {
+      "id": "P_IQSS01",
+      "kurs_id": "IQSS01",
+      "pruefungsform": "KLAUSUR",
+      "note": null
+    },
+    {
+      "id": "P_DLBMINPAPCC01",
+      "kurs_id": "DLBMINPAPCC01",
+      "pruefungsform": "PORTFOLIO",
+      "note": null
+    },
+    {
+      "id": "P_DLBSEPENIT01_D",
+      "kurs_id": "DLBSEPENIT01_D",
+      "pruefungsform": "FALLSTUDIE",
+      "note": null
+    },
+    {
+      "id": "P_DLBWIWTMAS01",
+      "kurs_id": "DLBWIWTMAS01",
+      "pruefungsform": "KLAUSUR",
+      "note": null
+    },
+    {
+      "id": "P_DLBCSEMSE01-01_D",
+      "kurs_id": "DLBCSEMSE01-01_D",
+      "pruefungsform": "FALLSTUDIE",
+      "note": null
+    },
+    {
+      "id": "P_ISSE01",
+      "kurs_id": "ISSE01",
+      "pruefungsform": "SEMINARARBEIT",
+      "note": null
+    },
+    {
+      "id": "P_ISEF01",
+      "kurs_id": "ISEF01",
+      "pruefungsform": "PROJEKTBERICHT",
+      "note": null
+    },
+    {
+      "id": "P_DLBSEPCP01_D",
+      "kurs_id": "DLBSEPCP01_D",
+      "pruefungsform": "PORTFOLIO",
+      "note": null
+    },
+    {
+      "id": "P_DLBSEPPSD01-01_D",
+      "kurs_id": "DLBSEPPSD01-01_D",
+      "pruefungsform": "PROJEKTPRÄSENTATION",
+      "note": null
+    },
+    {
+      "id": "P_BBAK01",
+      "kurs_id": "BBAK01",
+      "pruefungsform": "BACHELORARBEIT",
+      "note": null
+    },
+    {
+      "id": "P_BBAK02",
+      "kurs_id": "BBAK02",
+      "pruefungsform": "KOLLOQUIUM",
+      "note": null
+    },
+    {
+      "id": "autoP_WPC_C2",
+      "kurs_id": "WPC_C2",
+      "pruefungsform": "KLAUSUR",
+      "note": 2.0
+    }
+  ]
+}

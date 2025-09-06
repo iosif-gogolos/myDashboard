@@ -19,3 +19,38 @@ Dieses Repository enthält alle Ressourcen, die im Zusammenhang mit meinem Portf
 - Dokumentation und Berichte
 - Zusätzliche Ressourcen und Referenzmaterialien
 
+
+# Installationsanleitung – myDashboard (Phase 3)
+
+## Voraussetzungen
+- **Python 3.10 oder 3.11** (empfohlen)
+- Internetzugang zum Installieren der Abhängigkeiten
+
+## Schritte (Windows / macOS / Linux)
+1. Repository klonen oder Zip entpacken.
+2. In das Projektverzeichnis wechseln.
+3. Virtuelle Umgebung erstellen und aktivieren:
+   - Windows (CMD):
+     ```bat
+     python -m venv venv
+     venv\Scripts\activate
+     ```
+   - macOS/Linux (bash/zsh):
+     ```bash
+     python3 -m venv venv
+     source venv/bin/activate
+     ```
+4. Abhängigkeiten installieren:
+   ```bash
+   pip install -r requirements.txt
+   ```
+5. Anwendung starten:
+   ```bash
+   python main.py
+   ```
+   Es öffnet sich das Dashboard-Fenster.
+
+## Hinweise
+- Die Beispieldaten liegen in `data/student.json`. Sie können diese Datei anpassen.
+- Falls das Fenster nicht startet, prüfen Sie die Python-Version und dass die virtuelle Umgebung aktiv ist.
+- Zum Beenden Fenster schließen oder `Strg+C` im Terminal.

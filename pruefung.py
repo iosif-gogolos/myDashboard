@@ -10,5 +10,5 @@ from pruefungsform import Pruefungsform
 class Pruefung:
     id: str
     kurs_id: str
-    pruefongsform: Pruefungsform
+    pruefungsform: Pruefungsform
     note: Optional[float] = None

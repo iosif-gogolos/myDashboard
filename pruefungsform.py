@@ -1,6 +1,18 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
 from enum import Enum
 
-class Pruefungsform(Enum):
-    KLAUSUR="Klausur"
-    HAUSARBEIT="Hausarbeit"
-    MUENDLICH="Mündlich"
+class Pruefungsform(str, Enum):
+    KLAUSUR = "KLAUSUR"
+    PROJEKT = "PROJEKT"
+    HAUSARBEIT = "HAUSARBEIT"
+    MÜNDLICH = "MÜNDLICH"
+    FALLSTUDIE = "FALLSTUDIE"
+    PORTFOLIO = "PORTFOLIO"
+    PROJEKTPRÄSENTATION = "PROJEKTPRÄSENTATION"
+    SEMINARARBEIT = "SEMINARARBEIT"
+    PROJEKTBERICHT = "PROJEKTBERICHT"
+    BACHELORARBEIT = "BACHELORARBEIT"
+    KOLLOQUIUM = "KOLLOQUIUM"
+    ADVANCED_WORKBOOK = "ADVANCED_WORKBOOK"
